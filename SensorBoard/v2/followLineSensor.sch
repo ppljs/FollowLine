@@ -7886,8 +7886,8 @@ W = angled&lt;p&gt;
 <part name="RIR4" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="270"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="820"/>
 <part name="LED1" library="led" deviceset="LED" device="SML0805" value="green"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="SV1" library="con-lstb" deviceset="MA07-1" device=""/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7916,8 +7916,8 @@ W = angled&lt;p&gt;
 <instance part="RIR4" gate="G$1" x="111.76" y="88.9" rot="R90"/>
 <instance part="R1" gate="G$1" x="132.08" y="96.52" rot="R90"/>
 <instance part="LED1" gate="G$1" x="132.08" y="83.82"/>
-<instance part="C1" gate="G$1" x="119.38" y="91.44"/>
 <instance part="SV1" gate="1" x="-63.5" y="86.36"/>
+<instance part="C2" gate="G$1" x="119.38" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -7965,9 +7965,9 @@ W = angled&lt;p&gt;
 <label x="132.08" y="106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="93.98" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
 <label x="119.38" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="7"/>
@@ -8023,9 +8023,9 @@ W = angled&lt;p&gt;
 <label x="132.08" y="73.66" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="86.36" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <label x="119.38" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="6"/>
