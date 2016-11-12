@@ -1,0 +1,9 @@
+	I know 2 ways of reading the output of an IR photo-transistor:
+		First:
+			You make a sort of voltage divisor and you can measure the voltage drop on the resistor that will follow a proportion with the amount of IR light hitting the photo-transistor.
+		Second:
+			This is hard to explain by text, and will be an schematic file together, but, you can measure the capacitor drop off on the ground passing through the photo-transistor.  
+
+		Both of these methods are applied of pololus reflectance arrays, and they explain the two too.
+
+	After testing with a friend, we have got to the conclusion that the "voltage divider" is the better one, at least on the bread board. We've got a bigger range of values from the analogRead of the arduino and a smoother transition between the white and the black surfaces. 
